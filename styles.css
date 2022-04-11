@@ -1,0 +1,132 @@
+@font-face {
+	font-family: Ubuntu-Regular;
+	src: url(Ubuntu-Regular.ttf);
+}
+
+body {
+	background-image: url(Images/brown-paper.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	font-family: Ubuntu-Regular;
+}
+
+nav {
+	height: 10vh;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: #347788;
+}
+
+.nav-div {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 1rem;
+	padding-right: 10rem;
+}
+
+.nav-div ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 1.5rem;
+	color: rgb(219, 240, 245);
+}
+
+.nav-div li {
+	padding-left: 5rem;
+}
+
+.hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100vw;
+	padding-left: 10rem;
+}
+
+.test {
+	position: relative;
+	margin-top: 5rem;
+	width: 35rem;
+	height: 25rem;
+}
+
+.joy {
+	height: 40rem;
+	width: 40rem;
+	padding: 1rem;
+	padding-bottom: 3.5rem;
+	border-radius: 0.25rem;
+	background-color: rgb(241, 239, 237);
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), -3px -2px 4px rgba(138, 138, 138, 0.8) inset,
+		12px 8px 16px rgba(255, 255, 255, 1) inset;
+	transform: rotate(3deg);
+	margin-right: 10rem;
+}
+
+.motion-side {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tag-line {
+	margin-top: 10rem;
+	color: #347788;
+	font-size: 3.5rem;
+}
+.img-text {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	height: 45%;
+	width: 60%;
+}
+
+.disc1 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	animation: rotate 5s 2s infinite;
+}
+
+.disc2 {
+	position: absolute;
+	animation: rotate 5s 1s infinite;
+	height: 100%;
+	width: 100%;
+}
+
+.disc3 {
+	position: absolute;
+
+	animation: rotate 5s 4s infinite;
+	height: 100%;
+	width: 100%;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	90% {
+		transform: rotate(360deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
