@@ -1,0 +1,249 @@
+main {
+	background-color: rgb(219, 240, 245);
+}
+
+.contact_background {
+	transform: translateY(6rem);
+	width: 100vw;
+	background-image: url(images/matthew-feeney-LkEqxKFtPRY-unsplash\ \(1\).jpg);
+	background-color: #347788;
+	background-blend-mode: luminosity;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 40rem;
+	z-index: -1;
+}
+
+.contact_section {
+	width: 100vw;
+	transform: translateY(6rem);
+	height: 100%;
+	background-color: rgb(219, 240, 245);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_FAQ {
+	transform: translateY(-4rem);
+	width: 30%;
+	height: 40rem;
+	border-radius: 0.5rem;
+	background-color: white;
+	margin-right: 2rem;
+	box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding-top: 1rem;
+}
+
+.contact_form {
+	transform: translateY(-4rem);
+	width: 30%;
+	height: 40rem;
+	border-radius: 0.5rem;
+	background-color: white;
+	margin-left: 2rem;
+	box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.4);
+	padding-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.contact_FAQ-dropdown {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 20%;
+}
+
+.FAQ {
+	color: #347788;
+
+	margin-left: 10%;
+}
+
+.contact_FAQ-button {
+	width: 3rem;
+	height: 3rem;
+	background-color: #347788;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+}
+
+.contact_FAQ-full {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.span-line {
+	margin-top: 0.5rem;
+	width: 80%;
+	height: 0.25rem;
+	background-color: #347788;
+}
+
+.FAQ-answer {
+	text-align: center;
+	width: 70%;
+	background-color: rgb(219, 240, 245);
+	margin-top: 0;
+	font-size: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+
+	padding-left: 5%;
+
+	padding-right: 5%;
+}
+
+.menu-span {
+	width: 2rem;
+	height: 0.25rem;
+	background-color: rgb(219, 240, 245);
+	z-index: 10;
+
+	position: absolute;
+}
+
+.menu-span:before {
+	width: 2rem;
+	height: 0.25rem;
+	background-color: rgb(219, 240, 245);
+	position: absolute;
+	transform: rotate(90deg);
+	z-index: 11;
+	content: '';
+}
+
+.menu-span-active {
+	width: 2rem;
+	height: 0.25rem;
+	background-color: rgb(219, 240, 245);
+	z-index: 10;
+
+	position: absolute;
+}
+
+.menu-span-active:before {
+	transform: rotate(180deg);
+}
+
+.FAQ-title {
+	color: #347788;
+	font-size: 2rem;
+}
+
+.hidden {
+	display: none;
+}
+
+.contact_form-heading {
+	color: #347788;
+	font-size: 2rem;
+}
+
+.contact_form form {
+	width: 100%;
+	padding-left: 17.5%;
+}
+
+.form-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.form-section label {
+	color: #347788;
+	width: 80%;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+
+	font-family: Ubuntu-Regular;
+}
+
+.form-section input {
+	background-color: rgb(219, 240, 245);
+	border-radius: 0.25rem;
+	border: none;
+	width: 80%;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	cursor: pointer;
+
+	font-family: Ubuntu-Regular;
+}
+
+.form-section textarea {
+	background-color: rgb(219, 240, 245);
+	font-family: Ubuntu-Regular;
+	font-size: 1rem;
+	padding: 0.5rem;
+	width: 80%;
+	height: 5rem;
+	border-radius: 0.25rem;
+	border: none;
+	cursor: pointer;
+}
+
+.contact-pref {
+	display: flex;
+	flex-direction: column;
+}
+
+#submit {
+	background-color: #347788;
+	color: rgb(219, 240, 245);
+	margin-left: 3rem;
+	padding: 1rem;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+#submit:hover {
+	box-shadow: none;
+	color: rgb(167, 159, 56);
+}
+
+.contact-pref h2 {
+	color: #347788;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-email {
+	width: 10rem;
+	text-align: center;
+}
+
+.contact-phone {
+	width: 10rem;
+	text-align: center;
+}
+
+.contact_FAQ-dropdown {
+	cursor: pointer;
+}
