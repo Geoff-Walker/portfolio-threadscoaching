@@ -5,7 +5,7 @@ main {
 .contact_background {
 	transform: translateY(6rem);
 	width: 100vw;
-	background-image: url(images/matthew-feeney-LkEqxKFtPRY-unsplash\ \(1\).jpg);
+	background-image: url(Images/matthew-feeney-LkEqxKFtPRY-unsplash\ \(1\).jpg);
 	background-color: #347788;
 	background-blend-mode: luminosity;
 	background-size: cover;
