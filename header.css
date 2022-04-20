@@ -72,6 +72,7 @@ footer {
 	height: 18rem;
 	/* position: fixed;
 	bottom: 0; */
+	/* background-color: #cd2b60; */
 	background-color: #347788;
 	display: flex;
 	flex-direction: column;
@@ -139,6 +140,7 @@ footer h2 {
 .created_by {
 	height: 2rem;
 	background-color: #275763;
+	/* background-color: #7a1a3a; */
 	width: 100vw;
 	height: 2rem;
 	/* position: fixed;
