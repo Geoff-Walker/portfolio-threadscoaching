@@ -1,14 +1,21 @@
+body {
+	overflow-x: hidden;
+}
+
 main {
 	background-color: rgb(219, 240, 245);
+	/* overflow: hidden; */
+	transform: translateY(6rem);
 }
 
 .contact_background {
-	transform: translateY(6rem);
-	width: 100vw;
-	background-image: url(Images/matthew-feeney.jpg);
+	/* transform: translateY(6rem); */
+	width: 125vw;
+	/* background-image: url(Images/matthew-feeney.jpg);
 	background-color: #347788;
 
-	background-blend-mode: luminosity;
+	background-blend-mode: luminosity; */
+	background-image: url(Images/tom-wheatley-sYH.jpg);
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -18,7 +25,7 @@ main {
 
 .contact_section {
 	width: 100vw;
-	transform: translateY(6rem);
+	/* transform: translateY(6rem); */
 	height: 100%;
 	background-color: rgb(219, 240, 245);
 	display: flex;
